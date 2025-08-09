@@ -15,7 +15,7 @@ function HomeContent() {
     // Store hydrate olduktan sonra yönlendirme yap
     if (isHydrated) {
       if (isAuthenticated) {
-        router.push('/dashboard');
+        router.push('/income');
       } else {
         router.push('/login');
       }
