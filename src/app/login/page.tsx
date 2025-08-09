@@ -41,7 +41,7 @@ export default function LoginPage() {
     try {
       const success = await login(email, password);
       if (success) {
-        router.push('/dashboard');
+        router.push('/income');
       } else {
         setError('Kullanıcı adı veya şifre hatalı');
       }
@@ -79,7 +79,7 @@ export default function LoginPage() {
       });
       
       if (success) {
-        router.push('/dashboard');
+        router.push('/income');
       } else {
         setError('Kayıt olurken bir hata oluştu');
       }
