@@ -29,7 +29,7 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (isAuthenticated) {
-      router.push('/dashboard');
+      router.push('/income');
     }
   }, [isAuthenticated, router]);
 
